@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/tinypagination.js"></script>
+    <script type="text/javascript">
+		$(function(){
+			$(".list").tinyPagination({
+					itemsPerPage: 3,
+					itemClassName:".post",
+				});
+			})
+    </script>
+    <style type="text/css">
+		*,html,body{
+			padding:0;
+			margin:0;
+		}
+		body {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#333;
+		}
+		.wrapper{
+			width:600px;
+			margin:10px auto;
+		}
+		.parent-post {
+			overflow:auto;
+		}
+		.post{
+			padding:10px 0;
+			border-bottom:1px dotted #666;
+		}
+		.post h3 {
+			padding-bottom:5px;
+			color:#000;
+		}
+		.post p {
+			line-height:1.6em;
+		}
+		.paging{
+			padding:5px 0;
+			text-align:right;
+		}
+		.paging a, .paging a:visited{
+			text-decoration:none;
+			border:1px solid #ccc;
+			padding:10px;
+			display:inline-block;
+			border-left:0;
+			background-color:#fff;
+		}
+		.paging a:first-child, .paging a:first-child:visited{
+			border-left:1px solid #ccc;
+		}
+    	
+    </style>
+</head>
+
+<body>
+	<div class="wrapper">
+    	<div class="parent-post">
+           	<div class="post">
+           		<h3>Header 1</h3>
+           		<p>Content for Post 1</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 2</h3>
+           		<p>Content for Post 2</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 3</h3>
+           		<p>Content for Post 3</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 4</h3>
+           		<p>Content for Post 4</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 5</h3>
+           		<p>Content for Post 5</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 6</h3>
+           		<p>Content for Post 6</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 7</h3>
+           		<p>Content for Post 7</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 8</h3>
+           		<p>Content for Post 8</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 9</h3>
+           		<p>Content for Post 9</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 10</h3>
+           		<p>Content for Post 10</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 11</h3>
+           		<p>Content for Post 11</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 12</h3>
+           		<p>Content for Post 12</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 13</h3>
+           		<p>Content for Post 13</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 14</h3>
+           		<p>Content for Post 14</p>
+           	</div>
+           	<div class="post">
+           		<h3>Header 15</h3>
+           		<p>Content for Post 15</p>
+           	</div>
+        </div>
+        <div class="paging"></div>
+    </div>
+</body>
+</html>
